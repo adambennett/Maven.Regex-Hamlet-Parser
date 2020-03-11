@@ -64,6 +64,7 @@ public class HamletParser {
         match = pat.matcher(toRet);
         toRet = match.replaceAll(replace);
         System.out.println(toRet);
+        hamletData = toRet;
         return hamletData;
     }
 
